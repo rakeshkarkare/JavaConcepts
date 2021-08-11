@@ -10,6 +10,4 @@ public class EnumExample {
         Progamming_Lang pl = Progamming_Lang.JAVA;
         System.out.println("Progamming Language is: "+ pl);
     }
-
-
 }
