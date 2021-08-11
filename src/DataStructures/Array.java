@@ -55,4 +55,15 @@ public class Array {
 
     }
 
+    public int indexOf(int item){
+        //If we find it, return index
+        // Otherwise return -1
+
+        for(int i=0; i < count; i++){
+            if(items[i] == item)
+                return i;
+        }
+        return -1;
+    }
+
 }

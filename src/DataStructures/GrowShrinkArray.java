@@ -10,7 +10,9 @@ public class GrowShrinkArray {
         arr.insert(20);
         arr.insert(30);
         arr.insert(40);
-        arr.removeAt(4);
+
+        System.out.println(arr.indexOf(10));
+        arr.removeAt(3);
 
         arr.print();
 
