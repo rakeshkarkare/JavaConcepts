@@ -1,4 +1,4 @@
-package DataStructures;
+package com.datastructures.arraysconcepts;
 
 
 public class GrowShrinkArray {
