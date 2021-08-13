@@ -17,6 +17,9 @@ public class Main {
         int top1 = stack.peek();
         System.out.println(top1);
         System.out.println(stack);
+
+        StringReversal stringReverse = new StringReversal();
+        System.out.println(stringReverse.reverse("Selenium"));
     }
 
 
