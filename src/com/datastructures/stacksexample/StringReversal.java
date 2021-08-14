@@ -5,8 +5,6 @@ import java.util.Stack;
 public class StringReversal {
 
     public String reverse(String input){
-
-
         if(input == null)
             throw new IllegalArgumentException();
 

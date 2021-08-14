@@ -28,7 +28,6 @@ public class Main {
 
         Expression ex = new Expression();
         System.out.println(ex.isBalanced(str));
-
     }
 
 
