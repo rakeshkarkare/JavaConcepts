@@ -20,6 +20,15 @@ public class Main {
 
         StringReversal stringReverse = new StringReversal();
         System.out.println(stringReverse.reverse("Selenium"));
+
+
+        //String balanced example
+
+        String str = "'}1+2{'";
+
+        Expression ex = new Expression();
+        System.out.println(ex.isBalanced(str));
+
     }
 
 
