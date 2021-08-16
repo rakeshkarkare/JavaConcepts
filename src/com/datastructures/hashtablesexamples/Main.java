@@ -10,7 +10,7 @@ public class Main {
         hmap.put(1, "Mosh");
         hmap.put(2, "Josh");
         hmap.put(3, "Karkare");
-
+        hmap.put(3, "Rakesh");
         System.out.println(hmap);
     }
 
