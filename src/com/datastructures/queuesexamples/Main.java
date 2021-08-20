@@ -22,6 +22,7 @@ public class Main {
         System.out.println(queue);
         queue.enqueue(100);
         System.out.println(queue);
+        System.out.println(queue);
 
     }
 
