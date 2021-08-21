@@ -1,4 +1,4 @@
-package com.javaconcepts.TypesInJava;
+package com.javaconcepts.typesinjava;
 
 import java.util.Date;
 
