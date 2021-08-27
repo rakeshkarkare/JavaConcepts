@@ -5,9 +5,9 @@ import com.javaconcepts.oopsconcepts.inheritance.UIControl;
 public class upcastingexample {
 
     public static void main(String[] args) {
-        UIControl uiControl = new UIControl(true);
+//        UIControl uiControl = new UIControl();
         TextBox textBox = new TextBox();
-        show(uiControl);
+        show(textBox);
     }
 
     public static void show(UIControl control){

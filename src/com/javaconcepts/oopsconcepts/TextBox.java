@@ -6,9 +6,14 @@ public class TextBox extends UIControl {
 
     private String text = "";
 
-    public TextBox() {
-        super(true);
-        System.out.println("TextBox");
+//    public TextBox() {
+////        super(true);
+//        System.out.println("TextBox");
+//    }
+
+    @Override
+    public void render() {
+        System.out.println("Render Text Box");
     }
 
     @Override
