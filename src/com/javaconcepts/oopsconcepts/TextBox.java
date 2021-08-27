@@ -1,8 +1,10 @@
 package com.javaconcepts.oopsconcepts;
 
-public class TextBox {
+import com.javaconcepts.oopsconcepts.inheritance.UIControl;
 
-    public String text = "";
+public class TextBox extends UIControl {
+
+    private String text = "";
 
     public void setText(String text){
         this.text = text;
