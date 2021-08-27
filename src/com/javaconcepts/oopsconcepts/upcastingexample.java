@@ -7,13 +7,15 @@ public class upcastingexample {
     public static void main(String[] args) {
         UIControl uiControl = new UIControl(true);
         TextBox textBox = new TextBox();
-        show(textBox);
+        show(uiControl);
     }
 
     public static void show(UIControl control){
-        TextBox control1 = (TextBox) control;
-        control1.setText("Hello Java");
-        System.out.println(control1);
+        if (control instanceof TextBox){
+            TextBox control1 = (TextBox) control;
+            control1.setText("Hello Java");
+        }
+        System.out.println(control);
     }
 
 }
