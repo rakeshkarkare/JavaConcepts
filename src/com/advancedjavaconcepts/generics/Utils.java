@@ -1,4 +1,4 @@
-package com.javaconcepts.advancedjavaconcepts.generics;
+package com.advancedjavaconcepts.generics;
 
 public class Utils {
     public static <T extends Comparable<T>> T max(T first, T second){

@@ -1,4 +1,4 @@
-package com.javaconcepts.advancedjavaconcepts.exceptions;
+package com.advancedjavaconcepts.exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

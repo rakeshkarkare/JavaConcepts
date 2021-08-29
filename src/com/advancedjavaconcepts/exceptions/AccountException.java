@@ -1,4 +1,4 @@
-package com.javaconcepts.advancedjavaconcepts.exceptions;
+package com.advancedjavaconcepts.exceptions;
 
 public class AccountException extends Exception{
 

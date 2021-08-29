@@ -1,4 +1,4 @@
-package com.javaconcepts.advancedjavaconcepts.generics;
+package com.advancedjavaconcepts.generics;
 
 public class List {
     private Object[] items = new Object[10];

@@ -1,6 +1,4 @@
-package com.javaconcepts.advancedjavaconcepts.exceptions;
-
-import java.io.IOException;
+package com.advancedjavaconcepts.exceptions;
 
 public class Main {
 
