@@ -1,4 +1,4 @@
-package com.javaconcepts.advancedjavaconcepts.exceptions;
+package com.advancedjavaconcepts.exceptions;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ public class Account {
               throw new IOException();
     }
 
-    public void withdraw(float value) throws AccountException{
+    public void withdraw(float value) throws AccountException {
         if (value > balance)
             throw new AccountException(new InsuffientFundsException());
     }

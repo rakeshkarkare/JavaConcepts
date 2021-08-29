@@ -1,4 +1,4 @@
-package com.javaconcepts.advancedjavaconcepts.generics;
+package com.advancedjavaconcepts.generics;
 
 public class User implements Comparable<User> {
 
