@@ -22,5 +22,11 @@ public class Main {
 
         Utils.print(1, 10);
 
+        GenericList<String> list = new GenericList<>();
+        list.add("s");
+        list.add("m");
+
+        for (String item:list)
+            System.out.println(item);
     }
 }
