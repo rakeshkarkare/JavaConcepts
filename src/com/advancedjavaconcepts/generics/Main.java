@@ -25,6 +25,7 @@ public class Main {
         GenericList<String> list = new GenericList<>();
         list.add("s");
         list.add("m");
+        System.out.println(list);
 
         for (String item:list)
             System.out.println(item);

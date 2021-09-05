@@ -1,6 +1,7 @@
 package com.advancedjavaconcepts.generics;
 
 public class KeyValuePair<K, V> {
+
     private K key;
     private V value;
 
