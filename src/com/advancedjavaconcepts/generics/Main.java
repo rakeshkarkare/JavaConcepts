@@ -26,8 +26,10 @@ public class Main {
         list.add("s");
         list.add("m");
         System.out.println(list);
+        System.out.println(list);
 
         for (String item:list)
             System.out.println(item);
+
     }
 }
