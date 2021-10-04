@@ -7,5 +7,8 @@ public class Main {
         System.out.println(message.replace("!","*"));
         System.out.println(message.toLowerCase());
         System.out.println(message);
+
+        var msg = "c:\\Desktop";
+        System.out.println(msg);
     }
 }
