@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(Arrays.toString(numbers));
 
-        int [] numbersOne = {2, 3, 5, 1, 4};
+        int [] numbersOne = { 2, 3, 5, 1, 4 };
 
         System.out.println(numbersOne.length);
         Arrays.sort(numbersOne);
