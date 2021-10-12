@@ -40,7 +40,7 @@ public class MortgageCalculator {
 
     public double[] getRemainingBalances(){
 
-        double [] balances = new double[getNumberOfPayments()];
+        var balances = new double[getNumberOfPayments()];
         for(short month = 1; month <= balances.length; month++)
             balances[month -1] = calculateBalance(month);
         return balances;
