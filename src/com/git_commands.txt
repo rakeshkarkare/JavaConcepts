@@ -1,0 +1,33 @@
+Wording
+
+Present : Fix the bug.
+Past : Fixed the bug.
+
+How to Skip Staging Area
+git commit -am "fix the bug that prevented users from signing up."
+
+To remove any file from git
+rm file2.txt
+git ls-files
+git commit -m "Remove unused code."
+
+git rm file2.txt --> removes from both working and staging area
+
+Renaming or Moving files
+mv file1.txt main.js
+git status
+git add file1.txt
+git add main.js
+git status
+git mv main.js file1.js --> changes are applied from both working and staging area
+git commit -m "Refactor code."
+
+Ignore files
+.gitignore
+
+only from staging area not from working directory
+git rm --cached -r bin/
+
+git ls-files
+
+github/gitignore
