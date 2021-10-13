@@ -31,3 +31,51 @@ git rm --cached -r bin/
 git ls-files
 
 github/gitignore
+
+Short status
+git status -s
+
+
+Viewing Staged and Unstaged changes
+git diff --staged --> what there in in staging area which going in next commit
+
+git diff --> what is there in working directory and staging area
+
+Diff tools
+
+KDiff3
+P4Merge
+WinMerge (Windows only)
+VSCode
+
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+git config --global -e ---> we can edit default settings
+
+git difftool ---> will launch vscode for diff
+git difftool --staged
+git difftool
+
+git log --> to look at the history
+git log --oneline
+git log --oneline --reverse
+
+Viewing a Commit
+
+git show d601b90
+git show HEAD --> last commit
+git show HEAD~1
+
+git show HEAD~1:.gitignore --> exact version stored in this commit
+
+git ls-tree --> All files and directories in commit call
+
+git ls-tree HEAD~1
+
+Using show commands we can view Git objects
+
+1) Commits
+2) Blobs(Files)
+3) Trees(Directories)
+4) Tags
+
